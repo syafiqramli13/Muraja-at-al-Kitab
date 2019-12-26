@@ -22,7 +22,7 @@ export default class App extends Component {
             component={GetStart}
             left={() => null}
             title="Muraja'at al-Kitab"
-            // initial={true}
+             initial={true}
           />
           <Scene
             key="LoginScreen"
@@ -42,7 +42,7 @@ export default class App extends Component {
             component={BookList}
             left={() => null}
             title="Muraja'at Al-Kitab"
-            initial={true}
+           // initial={true}
           />
           <Scene
             key="BookReview"
